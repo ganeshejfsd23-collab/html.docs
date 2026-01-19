@@ -1,0 +1,65 @@
+/* =========================
+   Element Selectors
+   ========================= */
+body {
+    background-color: #264653;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #201eb6;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   ID Selector
+   ========================= */
+#employee-login {
+    width: 340px;
+    background-color: #8d8661;
+    padding: 30px;
+    margin: 120px auto;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* =========================
+   Group Selector
+   ========================= */
+input, button {
+    font-size: 15px;
+    font-family: inherit;
+}
+
+/* =========================
+   Class Selectors
+   ========================= */
+.emp-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.btn-emp-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #1cb9be;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.note-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #666;
+}
+
